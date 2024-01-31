@@ -1,0 +1,8 @@
+Cryptography and Secure Development course.
+---------
+File2 to be encrypted.
+This is file 2 used to test the files encryption application.
+---------
+File2 to be encrypted.
+This is file 2 used to test the files encryption application.
+---------

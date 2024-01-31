@@ -1,0 +1,4 @@
+Cryptography and Secure Development course.
+
+File1 to be encrypted.
+This is file 1 used to test the files encryption application.

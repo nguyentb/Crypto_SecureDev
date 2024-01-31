@@ -1,0 +1,12 @@
+Cryptography and Secure Development course.
+
+File3 to be encrypted.
+This is file 3 used to test the files encryption application.
+
+
+File3 to be encrypted.
+This is file 3 used to test the files encryption application.
+
+
+File3 to be encrypted.
+This is file 3 used to test the files encryption application.
