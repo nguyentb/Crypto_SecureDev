@@ -5,7 +5,7 @@
  * Any questions: Nguyen.Truong@glasgow.ac.uk  
  */
 
-public class Des {
+public class DES {
     /**
      * Initial Permutation Table --> IP --> Inital Permutation Round
      */

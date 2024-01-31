@@ -9,18 +9,19 @@ public class Main {
 
     public static void main(String[] args)
     {
-        Des cipher = new Des();
+        DES cipher = new DES();
         String plaintext = "1234567890ABCDEF";
         String key = "AABB09182736CCDD";
 
-
-        System.out.println("--[Encryption]--\n");
+        System.out.println("--[Encryption Process]--\n");
         String ciphertext = cipher.encrypt(plaintext, key);
-        System.out.println("\nCipherText: " + ciphertext.toUpperCase() + "\n");
+        System.out.println("\nCiphertext: " + ciphertext.toUpperCase() + "\n");
 
-
-        System.out.println("--[Decryption]--\n");
+        System.out.println("--[Decryption Process]--\n");
         String decrypted_text = cipher.decrypt(ciphertext, key);
-        System.out.println("\nPlainText: " + decrypted_text.toUpperCase());
+        System.out.println("\nDecrypted text: " + decrypted_text.toUpperCase());
+
+        System.out.println("\n--[Check Decryption Result]--\n");
+        System.out.println(plaintext.toUpperCase().equals(decrypted_text.toUpperCase()));
     }
 }
